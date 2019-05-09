@@ -1,0 +1,98 @@
+/* Pallette
+#0D1F2D - Dark Gunmetal
+#546A7B - Payne's Grey
+#9EA3B0 - Cadet Grey
+#FAE1DF - Pale Pink
+#EAC3AD - Desert Sand
+============================*/
+
+/* General Styles
+============================*/
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body {
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 16px;
+  margin: 0;
+}
+h1, h2 {
+  font-weight: bold;
+}
+h1 {
+  font-size: 30px;
+}
+h2 {
+  font-size: 20px;
+  margin-top: 0;
+}
+li {
+  margin-bottom: 10px;
+}
+a {
+  color: #EAC3AD
+}
+a:hover {
+  text-decoration: none;
+}
+
+.content-wrap {
+  max-width: 950px;
+  margin: 0 auto;
+  padding: 20px;
+  overflow: auto;
+}
+
+.col-narrow {
+  float: left;
+  width: 30%;
+  min-height: 175px;
+}
+
+.col-wide {
+  float: left;
+  width: 70%;
+  min-height: 175px;
+}
+
+/* Header Footer
+============================*/
+header, footer {
+  background: #0D1F2D;
+  color: #9EA3B0;
+}
+/* header */
+header {
+
+}
+header h1, header h2 {
+  color: #FAE1DF;
+  margin: 0;
+}
+.profile-img {
+  border-radius: 50%;
+}
+/* footer */
+footer {
+  text-align: center;
+}
+.contact-info a {
+  padding: 10px;
+  display: inline-block;
+}
+
+/* Work Experience
+============================*/
+.work {
+  background: #546A7B;
+}
+
+
+/* Education
+============================*/
+.education {
+  background: #9EA3B0;
+}
